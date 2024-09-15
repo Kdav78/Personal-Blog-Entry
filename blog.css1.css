@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    background-image: url(Artemis.jpeg);
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: fr fr;
+    grid-template-rows: fr fr;
+    grid-template-areas: 
+        "pictures text";
+    border: 2px solid red;
+}
